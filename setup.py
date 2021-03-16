@@ -4,7 +4,8 @@ import sys, os
 dirr=os.path.dirname(os.path.abspath(__file__))
 ##
 print("\n[~] make exe")
-os.system("sudo chmod +x "+dirr+"/ p")
+os.system("sudo chmod +x "+dirr+"/p")
+os.system("sudo chmod +x "+dirr+"/startup.sh")
 print("\n[~] do updates")
 os.system("sudo apt-get install bluez")
 print("\n[~] copy exe")
