@@ -33,9 +33,6 @@ for ar in arg[1:]:
 ##n1
  if((ag[0] == "update") or (ag[0] == "uz")):
   os.system("sudo apt-get install bluez")
-##n0
- else:
-  print("!! (("+ag[0]+")) not a title\n!!use [help | ??] for help")
  sys.exit()
 
 
